@@ -3,7 +3,9 @@
 	padding: 0;
 	margin: 0;
 }
-
+/*
+	NAV BAR CSS CODE 
+	*/
 body{
 	background-color: #F0EADC;
 }
@@ -94,8 +96,125 @@ flex-shrink: 0;
 	.menu-open{
 		display: none;
 	}
- @media screen and (max-width: 1174px){
 
+
+	/*
+	TRENDING COLLECTIONS CSS CODE GOES HERE 
+	*/
+img{
+	width: 100%;
+
+}
+.border-div{
+border-radius: 16px;
+border: 1px solid #754F23;
+background: #F0EADC;
+margin: auto;
+
+}
+	.parent-collections{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+	.child-collections{
+		margin: 20px;
+       border-radius: 16px;
+	}
+
+
+	.price-txt{
+
+color: #2F2F2F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+	}
+
+.money{
+
+color: #2F2F2F;
+font-family: Playfair Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: strikethrough;
+
+	}
+
+	.price span{
+		margin: 5px;
+	}
+	.bag{
+		
+		margin-left: auto;
+	}
+
+	.child-collections p{
+
+color: #2F2F2F;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 20px;
+margin-bottom: 50px;
+	}
+
+
+.heading {
+		
+		margin: 35px;
+	}
+
+.trending{
+color: #2F2F2F;
+font-family: Wilkysta;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.collections{
+color: #2F2F2F;
+font-family: Wilkysta;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text{
+color: #2F2F2F;
+font-family: Playfair Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
+}
+
+.price{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+======================WEBSITE ADAPTABILITY====================
+*/
+
+
+ @media screen and (max-width: 1174px){
+/*
+NAV BAR ADAPTABILITY CODE
+*/
 
 ul{
 	flex-wrap: wrap;
@@ -116,4 +235,10 @@ ul{
 .menu-open{
 	position: relative;
  }
+
+/*
+NAV BAR ADAPTABILITY CODE ENDS HERE
+*/
+
+
 }
