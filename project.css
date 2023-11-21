@@ -1,0 +1,119 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #F0EADC;
+}
+
+
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	widows: 1174px;
+	margin: 30px;
+   
+}
+li{
+	list-style: none;
+	
+
+}
+
+	
+
+a{
+	text-decoration: none;
+}
+.sehlvet{
+	
+
+	margin-right: auto;
+	
+
+}
+.sehlvet a{
+color: #2F2F2F;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+.nav-content a{
+color: #2F2F2F;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+}
+.nav-content{
+	
+   margin: 12px;
+
+
+
+}
+
+.bookmark{
+width: 24.52px;
+height: 30px;
+flex-shrink: 0;
+margin-right: 15px;
+margin-left: 300px;
+
+
+
+}
+.shopping-bag{
+width: 28.356px;
+height: 30px;
+flex-shrink: 0;
+
+
+}
+
+.cir{
+	
+	position: absolute;
+}
+
+#hidden-nav{
+	display: none;
+	}
+	.menu-open{
+		display: none;
+	}
+ @media screen and (max-width: 1174px){
+
+
+ul{
+	flex-wrap: wrap;
+
+}
+
+.nav-content{
+	display: none;
+}
+
+.menu-open{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: red;
+}
+
+.menu-open{
+	position: relative;
+ }
+}
