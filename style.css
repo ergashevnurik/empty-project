@@ -111,7 +111,17 @@ border: 1px solid #754F23;
 background: #F0EADC;
 margin: auto;
 
+
 }
+
+.child-1,.child-2,.child-3{
+	margin: auto;
+}
+
+
+
+
+
 	.parent-collections{
 		display: flex;
 		justify-content: center;
@@ -205,6 +215,67 @@ line-height: 25px; /* 138.889% */
 	justify-content: center;
 	align-items: center;
 }
+
+.crossed-out{
+color: #2F2F2F;
+font-family: Playfair Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: line-through;
+}
+.view-all{
+
+margin-top: 90px;
+
+}
+
+.v-all{
+border-radius: 16px;
+border: 2px solid #754F23;
+color: #754F23;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 222px;
+height: 60px;
+flex-shrink: 0;
+
+
+}
+
+
+/*
+TRENDING COLLECTIONS CSS CODE ENDS HERE 
+*/
+
+
+/*
+SUMMER COLLECTIONS CSS CODE GOES HERE 
+*/
+
+.ch-image{
+
+width: 410px;
+height: 521px;
+flex-shrink: 0;
+border-radius: 36px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.child-c p{
+color: #2F2F2F;
+font-family: Playfair Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
+}
+
 
 /*
 ======================WEBSITE ADAPTABILITY====================
