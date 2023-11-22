@@ -229,7 +229,7 @@
 
 	var menuBtn = document.getElementsByClassName('menu-open');
 	var menuOnClick = document.getElementById('hidden-nav');
-	menuBtn[0].onclick = function(){
+	menuBtn[0].onclick = function(){ // Смотрите вы забыли указать индекс так как getElementsByClassName - эта функция которая берет все элементы по названию и создать список из-за этого нужно указать индекс в данный момент это [0] => После я еще изменил и CSS #hidden-nav class добавил position absolute и еще помелочам
 		menuOnClick.style.left ='0'	
 	}
 
