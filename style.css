@@ -5,7 +5,16 @@
 	src: url('assets/fonts/Wilkysta.woff');
 	src: url('assets/fonts/Wilkysta.ttf');
 }
+@font-face{
+font-family: 'Playfair Display';'
+src: url('assets/fonts/PlayfairDisplay-Regular.ttf');
 
+}
+
+@font-face{
+	font-family: 'Poppins';
+	src: url('assets/fonts/Poppins-Regular.ttf');
+}
 *{
 	padding: 0;
 	margin: 0;
