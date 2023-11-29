@@ -32,7 +32,7 @@ ul{
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
-	widows: 1174px;
+	width: 1174px;
 	margin: 30px;
    
 }
@@ -78,17 +78,29 @@ line-height: normal;
 .nav-content{
 	
    margin: 12px;
+   
+}
 
 
+.bag-container{
 
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 70px;
+	
 }
 
 .bookmark{
 width: 24.52px;
 height: 30px;
 flex-shrink: 0;
-margin-right: 15px;
-margin-left: 300px;
+padding: 7px;
+margin-left: 200px;
+
+
 
 
 
@@ -97,6 +109,8 @@ margin-left: 300px;
 width: 28.356px;
 height: 30px;
 flex-shrink: 0;
+padding: 7px;
+
 
 
 }
@@ -134,11 +148,13 @@ img{
 	width: 100%;
 
 }
+
+
 .border-div{
 border-radius: 16px;
 border: 1px solid #754F23;
 background: #F0EADC;
-margin: auto;
+margin:30px;
 
 
 }
@@ -155,6 +171,8 @@ margin: auto;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
+
 		
 	}
 
@@ -210,6 +228,17 @@ margin-bottom: 50px;
 .heading {
 		
 		margin: 35px;
+
+	}
+	.line-tr-collections{
+		border-bottom: solid;
+		width: 410px;
+		border-width:1px;
+		opacity: 0.5;
+		margin-bottom: 20px;
+
+		
+
 	}
 
 .trending{
@@ -272,9 +301,12 @@ line-height: normal;
 width: 222px;
 height: 60px;
 flex-shrink: 0;
+position: relative;
+left: 30%;
 
 
 }
+
 
 
 /*
@@ -285,16 +317,53 @@ TRENDING COLLECTIONS CSS CODE ENDS HERE
 /*
 SUMMER COLLECTIONS CSS CODE GOES HERE 
 */
+.line-sm-collections{
+	    border-bottom: solid;
+		width: 550px;
+		border-width:1px;
+		opacity: 0.5;
+		margin-bottom: 20px;
+}
+.child-c img{
+border-radius: 36px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+flex-shrink: 0;
+}
 
-.ch-image{
+.child-c{
+	position: relative;
+	margin: 30px;
+	
+}
+
+.ch-image-1, .ch-image-2, .ch-image-3{
+
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.ch-image-1{
 
 width: 410px;
 height: 521px;
-flex-shrink: 0;
-border-radius: 36px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
 }
 
+.ch-image-2{
+width: 413px;
+height: 491px;
+position: relative;
+
+
+}
+.ch-image-3{
+width: 224px;
+height: 284px;
+position: absolute;
+left: 15px;
+bottom: 1px;
+
+}
 
 .child-c p{
 color: #2F2F2F;
@@ -303,6 +372,23 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 25px; /* 138.889% */
+margin-bottom: 25px;
+margin-left: 30px;
+}
+
+.explore{
+	
+
+}
+
+.explore button{
+	font-family: Poppins;
+	position: relative;
+	left: 60%;
+}
+
+.active {
+  fill: #754F23;
 }
 
 
