@@ -27,7 +27,7 @@ body{
 }
 
 
-ul{
+.main-nav ul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -391,6 +391,200 @@ margin-left: 30px;
   fill: #754F23;
 }
 
+/*
+SUMMER COLLECTIONS CSS CODE ENDS HERE 
+*/
+
+/*
+WHAT OUR CUSTOMER SAYS CSS CODE GOES HERE 
+*/
+
+.review-heading{
+	
+	margin: 20px;
+
+}
+
+.what-text{
+color: #2F2F2F;
+font-family: Wilkysta;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 710px;
+
+
+}
+
+.says-text{
+color: #2F2F2F;
+font-family: Wilkysta;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.under-head-text{
+color: #2F2F2F;
+text-align: right;
+font-family: Playfair Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
+margin-right: 45px;
+}
+.line-reviews{
+	    border-bottom: solid;
+		width: 550px;
+		border-width:1px;
+		opacity: 0.5;
+		margin-bottom: 20px;
+		position: relative;
+		left: 54%;
+}
+
+.picture{
+display: flex;
+margin: 40px;
+padding-bottom: 80px;
+
+
+}
+.picture img{
+width: 284px;
+height: 348px;
+flex-shrink: 0;
+border-radius: 36px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+
+.quotation svg{
+width: 54px;
+height: 47.616px;
+flex-shrink: 0;
+margin-bottom: 60px;
+
+}
+
+.quotation{
+margin: 50px;
+width: 572px;
+height: 284px;
+flex-shrink: 0;
+
+}
+
+.name{
+color: #2F2F2F;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 70px;
+margin-bottom: 15px;
+}
+
+
+
+.arrow-left,.arrow-right{
+border-radius: 16px;
+border: 2px solid #754F23;
+width: 60px;
+height: 60px;
+flex-shrink: 0;
+margin: 8px;
+
+}
+
+.arrow-left svg,.arrow-right svg{
+
+width: 6px;
+height: 12px;
+flex-shrink: 0;
+margin-left: 25px;
+margin-top: 25px;
+
+}
+
+.arrows{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	/*
+    padding-bottom: 15px;
+	margin-right: 0;
+	*/
+	position: absolute;
+	left: 82%;
+	padding-top: 250px;
+  	
+}
+
+
+/*
+WHAT OUR CUSTOMER SAYS CSS CODE ENDS HERE  
+*/
+
+/*
+         FOOTER CSS CODE GOES HERE 
+*/
+.footer{
+
+width: 1440px;
+height: 243px;
+flex-shrink: 0;
+background: #754F23;
+}
+
+.ul-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+
+}
+.ul-footer a{
+color: #DDD9D6;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.sehlvet-footer-div p{
+color: #DDD9D6;
+font-family: Playfair Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.footer-li a{
+
+color: #DDD9D6;
+font-family: Playfair Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.footer-li{
+	margin: auto;
+}
+
+.footer-div{
+	margin: 30px;
+}
 
 /*
 ======================WEBSITE ADAPTABILITY====================
