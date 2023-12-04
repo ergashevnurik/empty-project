@@ -114,10 +114,24 @@ padding: 7px;
 
 
 }
+.count{
+color: #DCD7D3;
+font-family: Playfair Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+right:11%;
+top:11% ;
+
+	
+}
 
 .cir{
 	
 	position: absolute;
+	left:85%;
 }
 
 #hidden-nav{
@@ -535,11 +549,12 @@ WHAT OUR CUSTOMER SAYS CSS CODE ENDS HERE
 */
 .footer{
 
-width: 1440px;
+
 height: 243px;
 flex-shrink: 0;
 background: #754F23;
 }
+
 
 .ul-footer{
 	display: flex;
@@ -567,7 +582,15 @@ font-weight: 400;
 line-height: normal;
 }
 
+.sehlvet-footer-div p{
 
+margin-bottom: 50px;
+margin-top: 20px;
+}
+
+.footer-socials{
+	margin: 10px;
+}
 .footer-li a{
 
 color: #DDD9D6;
@@ -576,14 +599,22 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+
 }
+
 
 .footer-li{
 	margin: auto;
 }
+.footer-li ul li{
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
 
 .footer-div{
 	margin: 30px;
+	padding-top: 40px;
+	
 }
 
 /*
